@@ -5,6 +5,7 @@ import AllProducts from './AllProducts/AllProducts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import SideBar from './SideBar/SideBar';
+import Questions from './Questions/Questions';
 
 function App() {
   const [cartCount, setCartCount] = useState(0);
@@ -18,9 +19,8 @@ function App() {
       <div className='d-flex'>
         <AllProducts cartCountSet={cartCountSet} />
         <SideBar cartCount={cartCount} />
-
-
       </div>
+      <Questions />
     </div>
   );
 }
