@@ -20,7 +20,8 @@ const SingleProducts = ({ product, cartCountSet }) => {
                 </div>
                 <div className='card-footer'>
                     <div >
-                        <h5 onClick={cartCountSet} className='add-to-cart'><FaCartPlus /></h5>
+                        <button onClick={cartCountSet} className='add-to-cart'><FaCartPlus /></button>
+
                     </div>
                     <h4>Price : {price}</h4>
                 </div>

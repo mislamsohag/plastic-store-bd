@@ -1,5 +1,7 @@
 .add-to-cart {
   padding: 5px;
+  border-radius: 5px;
+  margin:0 5px;
   font-size: 20px;  
   color:rgb(0, 21, 255);
   cursor: pointer;
