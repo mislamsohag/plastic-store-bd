@@ -10,7 +10,7 @@ const SingleProducts = ({ product, cartCountSet }) => {
         <div className='col-md-6 col-lg-4 col-sm-12 g-3'>
             <div className='card container'>
                 <div className='image-container'>
-                    <img className='img-fluid' src={img} alt="" />
+                    <img className=' img-fluid' src={img} alt="" />
                 </div>
                 <div className='product-info'>
                     <h3> {name}</h3>
