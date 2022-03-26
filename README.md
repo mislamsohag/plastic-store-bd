@@ -1,5 +1,5 @@
 # Royel Plastic Store
 
-Live Site Link [Create React App](https://github.com/facebook/create-react-app).
+Live Site Link [Royel Plastic Store](https://royelplasticstore.netlify.app/).
 
  
