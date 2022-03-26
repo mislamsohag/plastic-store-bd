@@ -15,7 +15,7 @@ const AllProducts = ({ cartCountSet }) => {
     // console.log(products);
     return (
         <div>
-            <h1 className='text-center'>All Products</h1>
+            <h1 className='text-center'>Products of Royel Plastic Store</h1>
 
             <div className='row container'>
                 {

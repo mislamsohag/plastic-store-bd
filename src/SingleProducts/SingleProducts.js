@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SingleProducts.css"
-// import { BsCart3 } from 'react-icons/bs';
-// import Button from 'react-bootstrap/Button';
+import { FaCartPlus } from 'react-icons/fa';
+
 
 const SingleProducts = ({ product, cartCountSet }) => {
     // console.log(product)
@@ -20,7 +20,7 @@ const SingleProducts = ({ product, cartCountSet }) => {
                 </div>
                 <div className='card-footer'>
                     <div >
-                        <button onClick={cartCountSet} className='add-to-cart'>Add to Cart</button>
+                        <h5 onClick={cartCountSet} className='add-to-cart'><FaCartPlus /></h5>
                     </div>
                     <h4>Price : {price}</h4>
                 </div>

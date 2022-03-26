@@ -7,6 +7,7 @@ const SideBar = ({ cartCount }) => {
         <div className='sidebar'>
             <h6>Total Product : {cartCount} </h6>
             <h6>Total Price : 0 </h6>
+            <button className='btn btn-primary'>Chose for me</button>
         </div>
     );
 };
